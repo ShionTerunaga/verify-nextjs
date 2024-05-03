@@ -1,3 +1,4 @@
+import Button from "@/components/button"
 import { characters } from "@/model"
 import Image from "next/image"
 
@@ -15,6 +16,9 @@ export default async function Home() {
             <div>
                 <section>
                     <h1>app routerによる検証</h1>
+                </section>
+                <section>
+                    <Button />
                 </section>
                 <section
                     style={{
